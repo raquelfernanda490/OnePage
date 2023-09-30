@@ -14,7 +14,7 @@ body {
     --third-color: #c84f91;
 }
 
-.font{
+.font {
     color: var(--second-color);
     font-weight: bold;
     font-size: larger;
@@ -26,7 +26,7 @@ body {
 
 .header_div {
     display: flex;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
 }
 
 .header {
@@ -60,7 +60,7 @@ body {
 
 .header_nav.show {
     display: block;
-    background-color:var(--second-color);
+    background-color: var(--second-color);
     margin: 0;
     padding: 0;
 }
@@ -96,7 +96,7 @@ body {
     background-color: var(--primary-color);
 }
 
-.sections h1{
+.sections h1 {
     padding: 1.5rem;
 }
 
@@ -104,7 +104,7 @@ body {
     background-image: radial-gradient(#c84f91e4, var(--second-color));
 }
 
-.container_sobre-mim h1{
+.container_sobre-mim h1 {
     color: white;
 }
 
@@ -136,7 +136,7 @@ body {
     text-align: center;
 }
 
-.container_desafios h1{
+.container_desafios h1 {
     color: white;
 }
 
@@ -156,18 +156,18 @@ body {
     background-color: var(--primary-color);
 }
 
-.container_habilidades_lista{
-    text-align: left; 
+.container_habilidades_lista {
+    text-align: left;
     color: var(--third-color);
     border-radius: 5px;
     padding: 2rem;
     border: 4px var(--third-color) solid;
 }
 
-.container_habilidades_li{
+.container_habilidades_li {
     list-style-type: none;
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     gap: 1.5rem;
     margin: auto;
     box-sizing: border-box;
@@ -180,14 +180,14 @@ body {
     padding: 3rem;
 }
 
-.section_projetos{
-    background-color: var(--primary-color);   
+.section_projetos {
+    background-color: var(--primary-color);
     display: grid;
     grid-template-columns: 1fr;
 
 }
 
-.cards{
+.cards {
     margin: 2rem;
     color: white;
     background-color: var(--second-color);
@@ -196,16 +196,16 @@ body {
 }
 
 
-.card_img img{
+.card_img img {
     width: 100%;
     border-bottom: 2px var(--second-color) solid;
 }
 
-.cards_links{
+.cards_links {
     padding: 1rem;
 }
 
-.cards_links a{
+.cards_links a {
     color: white;
     text-decoration: none;
     cursor: pointer;
@@ -214,13 +214,14 @@ body {
     padding: 0.5rem;
 }
 
-.cards_links a:hover{
+.cards_links a:hover {
     background-color: color-mix(in srgb, var(--second-color) 60%, white 40%);
 }
 
-.texto_depoimento{
+.texto_depoimento {
     color: var(--second-color);
 }
+
 .icons {
     padding: 1rem;
     display: flex;
@@ -308,29 +309,30 @@ body {
         color: #A6246C;
     }
 
-    .logo{
+    .logo {
         margin: 1rem;
     }
 
 
-    .container_aprendizados{
+    .container_aprendizados {
         display: flex;
         justify-content: center;
         flex-direction: column;
         align-items: center;
     }
-    .carousel{
+
+    .carousel {
         width: 70%;
         text-align: center;
 
     }
 
-    .section_projetos{
+    .section_projetos {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
 
-    .cards{
+    .cards {
         margin: 2rem;
         color: white;
         background-color: var(--second-color);
@@ -338,20 +340,21 @@ body {
         border-radius: 5px;
     }
 
-    .depoimento{
+    .depoimento {
         display: grid;
         grid-template-columns: 2fr 1fr;
     }
 
-    .texto_depoimento{
+    .texto_depoimento {
         color: var(--second-color);
         padding: 2rem;
     }
-    .video{
+
+    .video {
         border-radius: 5px;
     }
 
-    .icons{
+    .icons {
         flex-direction: row;
         justify-content: center;
     }
@@ -359,62 +362,62 @@ body {
 }
 
 
-@media screen and (min-width: 64em){
+@media screen and (min-width: 64em) {
     .container_jornada {
         display: flex;
         justify-content: space-between;
         gap: 3rem;
     }
 
-    .jornada{
+    .jornada {
         display: block;
     }
 
-    .img_jornada{
+    .img_jornada {
         width: 40rem;
     }
 
-    .texto_jornada{
+    .texto_jornada {
         padding: 5rem;
     }
 
-    .container_aprendizados{
+    .container_aprendizados {
         display: grid;
         grid-template-columns: 1fr 1fr;
         padding: 2rem;
     }
-    
-    .carousel{
+
+    .carousel {
         width: 90%;
         text-align: center;
         justify-content: center;
 
     }
 
-    .texto_aprendizado{
+    .texto_aprendizado {
         padding: 5rem;
     }
 
-    .container_desafios{
+    .container_desafios {
         padding: 8.5rem;
         font-size: 2.5rem;
     }
 
-    .container_habilidades{
+    .container_habilidades {
         display: grid;
         grid-template-columns: 2fr 1fr;
     }
 
-    .texto_habilidades{
+    .texto_habilidades {
         padding: 4rem;
     }
 
-    .container_habilidades_lista{
+    .container_habilidades_lista {
         padding: 2rem;
         margin: auto;
     }
 
-    .section_projetos{
+    .section_projetos {
         grid-template-columns: 1fr 1fr 1fr;
         filter: opacity(70%)
     }
