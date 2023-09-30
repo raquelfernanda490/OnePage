@@ -218,6 +218,9 @@ body {
     background-color: color-mix(in srgb, var(--second-color) 60%, white 40%);
 }
 
+.texto_depoimento{
+    color: var(--second-color);
+}
 .icons {
     padding: 1rem;
     display: flex;
@@ -242,7 +245,7 @@ body {
     background-color: black;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 36em) {
 
     .jornada {
         display: inline-flex;
@@ -272,7 +275,6 @@ body {
         flex-wrap: wrap;
         flex-basis: 100%;
         justify-content: center;
-        gap: 1rem;
         background-color: var(--primary-color);
 
     }
@@ -306,6 +308,10 @@ body {
         color: #A6246C;
     }
 
+    .logo{
+        margin: 1rem;
+    }
+
 
     .container_aprendizados{
         display: flex;
@@ -332,11 +338,28 @@ body {
         border-radius: 5px;
     }
 
+    .depoimento{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    .texto_depoimento{
+        color: var(--second-color);
+        padding: 2rem;
+    }
+    .video{
+        border-radius: 5px;
+    }
+
+    .icons{
+        flex-direction: row;
+        justify-content: center;
+    }
 
 }
 
 
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 64em){
     .container_jornada {
         display: flex;
         justify-content: space-between;
